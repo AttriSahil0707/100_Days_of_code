@@ -2,7 +2,6 @@
 Read a text file and count the total number of characters, words, and lines. 
 A word is defined as a sequence of non-space characters separated by spaces or newlines.
 */
-Here’s the **beginner-level C program (without comments)** for **Q123 (File Handling)**:
 
 #include <stdio.h>
 #include <ctype.h>
