@@ -2,14 +2,12 @@
 
 #include <stdio.h>
 
-struct Student
-{
+struct Student {
     char name[50];
     int roll;
     int marks;
 };
-int main()
-{
+int main() {
     struct Student s[10];
     int n, i;
     FILE *fp;
@@ -19,8 +17,7 @@ int main()
 
     fp = fopen("students.txt", "w");
 
-    for(i = 0; i < n; i++)
-    {
+    for(i = 0; i < n; i++) {
         printf("Enter name: ");
         scanf("%s", s[i].name);
         printf("Enter roll: ");
@@ -30,16 +27,19 @@ int main()
 
         fprintf(fp, "%s %d %d\n", s[i].name, s[i].roll, s[i].marks);
     }
+
     fclose(fp);
 
     fp = fopen("students.txt", "r");
 
     printf("\nStudent Records:\n");
-    while(fscanf(fp, "%s %d %d", s[0].name, &s[0].roll, &s[0].marks) != EOF)
-    {
+
+    while(fscanf(fp, "%s %d %d", s[0].name, &s[0].roll, &s[0].marks) != EOF) {
         printf("Name: %s | Roll: %d | Marks: %d\n", s[0].name, s[0].roll, s[0].marks);
     }
 
     fclose(fp);
+
     return 0;
 }
+
