@@ -7,7 +7,7 @@ int main() {
     int n, i;
     long long fact = 1;   // factorial grows fast, so use long long
 
-    printf("Enter a number: ");
+    printf("Enter a numbebbr: ");
     scanf("%d", &n);
 
     if (n < 0) {
