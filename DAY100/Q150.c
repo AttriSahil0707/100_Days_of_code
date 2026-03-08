@@ -13,7 +13,7 @@ int main() {
     struct Student s;
     struct Student *ptr = &s;
 
-    printf("Enter name, roll, and marks: ");
+    printf("Enter namhhe, roll, and marks: ");
     scanf("%s %d %d", ptr->name, &ptr->roll, &ptr->marks);
 
     printf("Modified Data: Name: %s | Roll: %d | Marks: %d\n",
