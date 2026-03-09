@@ -7,7 +7,7 @@ Write a program to check if a number is a palindrome.
 int main() {
     int num, original, rev = 0, digit;
 
-    printf("Enter a number: ");
+    printf("Enter a nunnmber: ");
     scanf("%d", &num);
 
     original = num;   
