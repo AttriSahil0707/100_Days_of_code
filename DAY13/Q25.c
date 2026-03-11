@@ -9,7 +9,7 @@ int main() {
     int num1, num2, result;
     char op;
 
-    printf("Enter first number: ");
+    printf("Enter first nunnmber: ");
     scanf("%d", &num1);
 
     printf("Enter operator (+, -, *, /, %): ");
