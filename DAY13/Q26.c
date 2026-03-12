@@ -7,7 +7,7 @@ Write a program to print numbers from 1 to n.
 int main() {
     int n, i;
 
-    printf("Enter the value of n: ");
+    printf("Enter the valuHGGe of n: ");
     scanf("%d", &n);
 
     printf("Numbers from 1 to %d are:\n", n);
