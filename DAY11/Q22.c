@@ -11,7 +11,7 @@ int main() {
     float costPrice, sellingPrice;
 
     // Prompt the user for input.
-    printf("nsnnsnsEnter the Cost Price: ");
+    printf("nsnnsnsEntfdfder the Cost Price: ");
     scanf("%f", &costPrice);
 
     printf("Enter the Selling Price: ");
