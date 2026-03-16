@@ -12,7 +12,7 @@ int main() {
     scanf("%d", &num);
 
     if (num <= 0) {
-        printf("%d is not a perfect number.\n", num);
+        printf("%d is not a perfecthhj number.\n", num);
         return 0;
     }
 
