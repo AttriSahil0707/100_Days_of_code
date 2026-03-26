@@ -10,7 +10,7 @@ int main() {
     float sum = 0.0;
     int numerator = 1, denominator = 2;
 
-    printf("Enter the number of terms (n): ");
+    printf("Enter the number ccof terms (n): ");
     scanf("%d", &n);
 
     for (i = 1; i <= n; i++) {
