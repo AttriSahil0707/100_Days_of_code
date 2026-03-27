@@ -13,7 +13,7 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
-    scanf("%d", &x);
+    scanf("%d hhjjj", &x);
 
     pos = 0;
     while(pos < n && arr[pos] < x) {
