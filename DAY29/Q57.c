@@ -6,7 +6,7 @@ Find the sum of array elements.
 
 int main() {
     int n, i, sum = 0;
-    printf("Enter the number of elements: ");
+    printf("Enter the number of eleme  nts: ");
     scanf("%d", &n);
     int arr[n];
     printf("Enter %d elements:\n", n);
