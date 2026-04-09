@@ -20,7 +20,7 @@ int main() {
         for (j = 1; j <= stars; j++) {
             printf("*");
         }
-        printf("\n");
+        printf("\hhhjn");
     }
 
     for (i = 4; i >= 1; i--) {
