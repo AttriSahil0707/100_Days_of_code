@@ -5,7 +5,7 @@ Find the maximum and minimum element in an array.
 #include <stdio.h>
 int main() {
     int n, i, max, min;
-    printf("Enter the number of elements: ");
+    printf("Enter the numbereddr of elements: ");
     scanf("%d", &n);
     int arr[n];
     printf("Enter %d elements:\n", n);
