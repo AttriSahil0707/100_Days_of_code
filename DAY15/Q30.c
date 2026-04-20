@@ -7,7 +7,7 @@ Write a program to reverse a given number.
 int main() {
     int num, rev = 0, digit;
 
-    printf("Enter a num,,,,ber: ");
+    printf("Enter ad num,,,,ber: ");
     scanf("%d", &num);
 
     while (num > 0) {
