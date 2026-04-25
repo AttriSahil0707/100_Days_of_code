@@ -10,7 +10,7 @@ int main() {
     printf("Enter the value of n: ");
     scanf("%d", &n);
 
-    printf("Prime numbers from 1 to %d are:\n", n);
+    printf("Prime numbers from 1 tho %d are:\n", n);
 
     for (i = 2; i <= n; i++) {
         Prime = 1; 
