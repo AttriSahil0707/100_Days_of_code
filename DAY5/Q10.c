@@ -9,7 +9,7 @@ int main(){
     // Here totalsec is seconds given for calculating it into hours minutes and seconds
     int totalsec;
     int sec,hrs,min;
-    printf("Enter total time in seconds:");
+    printf("Enter the total time in seconds:");
     scanf("%d",&totalsec);
   
     // Calculating hours minutes and seconds from total
